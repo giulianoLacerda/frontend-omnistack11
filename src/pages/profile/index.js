@@ -9,9 +9,9 @@ import './styles.css';
 import logoImg from '../../assets/logo.svg';
 
 export default function Profile() {
-    const [incidents, setIncidents] = useState([]);
-
     const history = useHistory();
+    
+    const [incidents, setIncidents] = useState([]);
 
     const ongId = localStorage.getItem('ongId');
     const ongName = localStorage.getItem('ongName');
